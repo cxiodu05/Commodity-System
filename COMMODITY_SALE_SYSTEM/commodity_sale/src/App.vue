@@ -18,14 +18,14 @@
       <UserPage :display="UserPage.display" v-if="isLogin" :username="User.username" :userimgurl="User.userimgurl"
         :userid="User.userid"></UserPage>
     </v-main>
-    <Alert type="success" :alert="Alert.login.success">已登录</Alert>
-    <Alert type="error" :alert="Alert.login.failed">用户名或密码错误</Alert>
-    <Alert type="error" :alert="Alert.login.error">服务器异常</Alert>
-    <Alert type="success" :alert="Alert.registered.success">注册成功</Alert>
-    <Alert type="error" :alert="Alert.registered.failed">已经存在该用户</Alert>
-    <Alert type="error" :alert="Alert.registered.error">服务器异常</Alert>
-    <Alert type="success" :alert="Alert.update.success">修改成功</Alert>
-    <Alert type="error" :alert="Alert.update.error">服务器异常</Alert>
+    <Alert type="success" :alert="Alert.login.success">已登录!</Alert>
+    <Alert type="error" :alert="Alert.login.failed">用户名或密码错误!</Alert>
+    <Alert type="error" :alert="Alert.login.error">服务器异常!</Alert>
+    <Alert type="success" :alert="Alert.registered.success">注册成功!</Alert>
+    <Alert type="error" :alert="Alert.registered.failed">已经存在该用户!</Alert>
+    <Alert type="error" :alert="Alert.registered.error">服务器异常!</Alert>
+    <Alert type="success" :alert="Alert.update.success">修改成功!</Alert>
+    <Alert type="error" :alert="Alert.update.error">服务器异常!</Alert>
 
   </v-app>
 </template>
