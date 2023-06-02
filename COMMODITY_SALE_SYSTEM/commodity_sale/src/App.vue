@@ -11,7 +11,7 @@
     </v-app-bar>
     <v-main>
       <CommodityContainer :display="CommodityContainer.display">
-        <v-col v-for="i in 50" :key="i">
+        <v-col v-for="i in 0" :key="i">
           <CdDialog :key="i"></CdDialog>
         </v-col>
       </CommodityContainer>
